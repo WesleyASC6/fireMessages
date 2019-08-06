@@ -10,11 +10,30 @@
     <!--Go to https://console.firebase.google.com-->
     <!--Sign in and add a project "fireMessage"-->
     <!--PASTE SNIPPET HERE-->
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js" ></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-database.js" ></script>
 
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#config-web-app -->
+    
+    <script >
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAHG9C01a0lxQUVzX7XWiKTwxictx9hJC4",
+        authDomain: "fir-message-e02ae.firebaseapp.com",
+        databaseURL: "https://fir-message-e02ae.firebaseio.com",
+        projectId: "fir-message-e02ae",
+        storageBucket: "",
+        messagingSenderId: "325420727134",
+        appId: "1:325420727134:web:b7e2e25ae636d56e"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig); 
+    </script>
 
 
     <!--custom files-->
-    <script src="lib/js/main.js" defer></script>
+    <script src="lib/js/main.js" defer ></script>
     <link rel="stylesheet" href="lib/css/style.css">
 </head>
 <body>
